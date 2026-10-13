@@ -1,0 +1,45 @@
+name: Bug report
+description: Something doesn't work the way it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time. A short description and the steps to get there help the most.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: And what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open …
+        2. Tap …
+        3. See …
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      description: Filled in when you report from the app (Settings → Report a bug or idea).
+      placeholder: 1.0.0 (100)
+    validations:
+      required: true
+  - type: input
+    id: android
+    attributes:
+      label: Android version
+      placeholder: 16 (API 36)
+  - type: input
+    id: device
+    attributes:
+      label: Phone
+      placeholder: samsung SM-S928B
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Optional. Drag images here. Please hide anything private.

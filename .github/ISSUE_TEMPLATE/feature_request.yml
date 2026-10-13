@@ -1,0 +1,15 @@
+name: Idea or feature request
+description: Something that would make your day easier.
+labels: ["idea"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: When would you use it?
+      description: A real moment from your day helps more than a feature name.
