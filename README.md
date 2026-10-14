@@ -4,11 +4,15 @@
 
 Glanceday puts your to-do list on your lock-screen wallpaper. One glance at your phone shows what's next, without opening an app. It stays up to date as you tick things off.
 
-<p>
-  <img src="media/wallpaper-card.png" width="200" alt="Lock screen with today's tasks">
-  <img src="media/tasks-home.png" width="200" alt="Task list">
-  <img src="media/lockscreen-editor.png" width="200" alt="Lock screen editor">
-  <img src="media/suggestions.png" width="200" alt="Suggestions">
+<p align="center">
+  <img src="media/hero.png" alt="Glanceday: your day, before you unlock">
+</p>
+
+<p align="center">
+  <img src="media/1-lockscreen.png" width="24%" alt="Lock screen with today's tasks">
+  <img src="media/2-app.png" width="24%" alt="Task list">
+  <img src="media/3-editor.png" width="24%" alt="Lock screen editor">
+  <img src="media/4-suggestions.png" width="24%" alt="Suggestions with their own off switches">
 </p>
 
 ## What it does
