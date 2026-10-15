@@ -19,11 +19,13 @@ Glanceday puts your to-do list on your lock-screen wallpaper. One glance at your
 
 - **Your list on the lock screen.** Today's tasks are drawn into your lock-screen wallpaper, over your own photo or a plain colour. Drag and pinch to place it around your clock.
 - **Quick add that understands you.** "Dentist tomorrow 3pm", "call mum friday #personal", or in Dutch: "morgen om 15u".
-- **Calendar, weather and widgets.** See today's events next to your tasks, a one-line forecast, and home-screen widgets in three sizes.
-- **Focus timer.** Pick a task, start 25 minutes, and it shows on your lock screen until you're done.
+- **Calendar, weather and widgets.** See today's events next to your tasks, a one-line forecast (optionally on the lock screen too), and home-screen widgets in three sizes.
+- **Tasks from Tasks.org and OpenTasks.** Show tasks from those apps, including Nextcloud and other CalDAV lists synced with DAVx⁵, and tick them off from Glanceday.
+- **Habits.** Track something as a habit: it never goes overdue, and one missed day doesn't break your streak.
+- **Focus timer.** Pick a task, start 25 minutes, and it shows on your lock screen until you're done. Go full screen for a calm, dimmed countdown.
 - **Lists with hours.** A Work list can show only on weekdays from 9 to 5.
 - **Gentle suggestions, all switchable.** A heads-up when rain meets an outing, a task for a free gap in your calendar, a morning brief, an evening plan. Each one has its own switch.
-- **Subtasks, repeats, reminders, backup and restore.** English and Dutch.
+- **Subtasks, repeats (including every 2 weeks), reminders, backup and restore.** English and Dutch.
 
 ## Install
 
@@ -33,7 +35,9 @@ Glanceday puts your to-do list on your lock-screen wallpaper. One glance at your
 
 Android 8.0 or newer. Tested on a Galaxy S24 Ultra (One UI 8.5) and on Pixel images (Android 16).
 
-**Updates:** Glanceday doesn't update itself. Watch this repo (Watch → Custom → Releases), or add it to [Obtainium](https://github.com/ImranR98/Obtainium) with this repo's URL to get updates automatically.
+**Updates:** from 1.1.0 on, Glanceday tells you inside the app when a new version is out (you can switch this off). Download it from Releases and install it over the old one; your tasks stay. Or add this repo to [Obtainium](https://github.com/ImranR98/Obtainium) to update automatically. If you're on 1.0.0, download 1.1.0 once by hand.
+
+**Lock screen keeps getting replaced?** Something else is setting a lock-screen picture. On Samsung, check Settings → Lock screen → Wallpaper services, Good Lock modules like LockStar, or a theme. Glanceday notices this and offers to put your list back.
 
 ## Permissions, and why
 
@@ -43,12 +47,13 @@ Android 8.0 or newer. Tested on a Galaxy S24 Ultra (One UI 8.5) and on Pixel ima
 | Notifications | Reminders, the optional list notification, focus timer and daily brief. |
 | Alarms & reminders | To remind you at the exact minute. Optional. |
 | Calendar (read only) | To show today's events. Optional, you pick which calendars. |
+| Read/write tasks (Tasks.org, OpenTasks) | To show those apps' tasks and tick them off. Optional, only when you turn on Task apps. |
 | Approximate location | For the weather, if you choose "use my location". You can type a city instead. |
-| Internet | Only for the weather forecast. |
+| Internet | Only for the weather forecast and the optional update check. |
 
 ## Privacy
 
-Your tasks never leave your phone. There are no accounts, no ads and no analytics. With weather on, only your place's coordinates are sent to [MET Norway](https://api.met.no/) to get the forecast. Details are in [PRIVACY.md](PRIVACY.md).
+Your tasks never leave your phone. There are no accounts, no ads and no analytics. With weather on, only your place's coordinates are sent to [MET Norway](https://api.met.no/) to get the forecast. The optional update check only asks GitHub for the latest version. Details are in [PRIVACY.md](PRIVACY.md).
 
 ## Bugs and ideas
 
