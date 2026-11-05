@@ -39,6 +39,12 @@ body:
       label: Phone
       placeholder: samsung SM-S928B
   - type: textarea
+    id: crash-log
+    attributes:
+      label: Crash report
+      description: Filled in when you report a crash from the app. Leave empty otherwise.
+      render: text
+  - type: textarea
     id: screenshots
     attributes:
       label: Screenshots

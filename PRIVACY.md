@@ -1,6 +1,6 @@
 # Privacy
 
-_Last updated: October 16, 2026 (version 1.1.0)_
+_Last updated: November 5, 2026 (version 1.2.0)_
 
 Glanceday is built to keep your day on your phone.
 
@@ -16,8 +16,10 @@ Glanceday is built to keep your day on your phone.
 
 **Location.** Only approximate location is used, only for the weather, and only if you choose "use my location".
 
-**No tracking.** Glanceday has no ads, analytics, crash reporting or third-party SDKs that collect data. Fonts are loaded through Android's built-in Google Fonts provider.
+**No tracking.** Glanceday has no ads, analytics or third-party SDKs that collect data. Fonts are loaded through Android's built-in Google Fonts provider.
 
 **Bug reports.** "Report a bug or idea" opens a GitHub issue form in your browser with your app version, Android version and phone model filled in. You can see and edit everything before you send it, and nothing is sent unless you submit the form.
+
+**Crash reports.** If Glanceday crashes, it saves a short report on your phone: the time, app and Android version, phone model and the technical error. Only the newest three are kept. Nothing is sent automatically. After a crash the app offers to report it; you see the full text first, can leave it out, and it only goes to GitHub if you submit the bug form.
 
 **Questions.** Open an issue on this repository.

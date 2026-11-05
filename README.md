@@ -25,6 +25,7 @@ Glanceday puts your to-do list on your lock-screen wallpaper. One glance at your
 - **Focus timer.** Pick a task, start 25 minutes, and it shows on your lock screen until you're done. Go full screen for a calm, dimmed countdown.
 - **Lists with hours.** A Work list can show only on weekdays from 9 to 5.
 - **Gentle suggestions, all switchable.** A heads-up when rain meets an outing, a task for a free gap in your calendar, a morning brief, an evening plan. Each one has its own switch.
+- **Search and quick moves.** Find any task by its title, notes or subtasks, and move a task to tomorrow or next week from its menu, with undo.
 - **Subtasks, repeats (including every 2 weeks), reminders, backup and restore.** English and Dutch.
 
 ## Install
@@ -35,7 +36,7 @@ Glanceday puts your to-do list on your lock-screen wallpaper. One glance at your
 
 Android 8.0 or newer. Tested on a Galaxy S24 Ultra (One UI 8.5) and on Pixel images (Android 16).
 
-**Updates:** from 1.1.0 on, Glanceday tells you inside the app when a new version is out (you can switch this off). Download it from Releases and install it over the old one; your tasks stay. Or add this repo to [Obtainium](https://github.com/ImranR98/Obtainium) to update automatically. If you're on 1.0.0, download 1.1.0 once by hand.
+**Updates:** from 1.1.0 on, Glanceday tells you inside the app when a new version is out (you can switch this off). Download it from Releases and install it over the old one; your tasks stay. Or add this repo to [Obtainium](https://github.com/ImranR98/Obtainium) to update automatically. If you're on 1.0.0, download the latest version once by hand.
 
 **Lock screen keeps getting replaced?** Something else is setting a lock-screen picture. On Samsung, check Settings → Lock screen → Wallpaper services, Good Lock modules like LockStar, or a theme. Glanceday notices this and offers to put your list back.
 
@@ -53,7 +54,7 @@ Android 8.0 or newer. Tested on a Galaxy S24 Ultra (One UI 8.5) and on Pixel ima
 
 ## Privacy
 
-Your tasks never leave your phone. There are no accounts, no ads and no analytics. With weather on, only your place's coordinates are sent to [MET Norway](https://api.met.no/) to get the forecast. The optional update check only asks GitHub for the latest version. Details are in [PRIVACY.md](PRIVACY.md).
+Your tasks never leave your phone. There are no accounts, no ads and no analytics. Crash reports stay on your phone unless you choose to send one. With weather on, only your place's coordinates are sent to [MET Norway](https://api.met.no/) to get the forecast. The optional update check only asks GitHub for the latest version. Details are in [PRIVACY.md](PRIVACY.md).
 
 ## Bugs and ideas
 
